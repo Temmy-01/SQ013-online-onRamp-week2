@@ -1,13 +1,13 @@
 function sumOfMultiples(arr) {
-   let y = 0
+   let sum = 0
     for (let index = 0; index < arr.length; index++) {
         
         if (arr[index] % 3 ==0 || arr[index] % 5 ==0 ) {
-            y += arr[index]
+            sum += arr[index]
             
         } 
         
-    }  return y
+    }  return sum
     
  
 }
