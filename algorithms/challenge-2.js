@@ -9,4 +9,4 @@ console.log(sumOfTwoSmallestNums([80, 33, 44,55,1,2,14]));
 console.log(sumOfTwoSmallestNums([12,34,23,12,67]));
 console.log(sumOfTwoSmallestNums([999,234,567,78,2]));
 
-// module.exports = sumOfTwoSmallestNums
+module.exports = sumOfTwoSmallestNums

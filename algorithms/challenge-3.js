@@ -10,8 +10,10 @@ function alphabetPosition(text) {
     return result.join(" ");
  }
 
-  // module.exports = alphabetPosition
   console.log(alphabetPosition('developer'));
   console.log(alphabetPosition('decadev'));
   console.log(alphabetPosition('sucess'));
+  
+  module.exports = alphabetPosition
+
   

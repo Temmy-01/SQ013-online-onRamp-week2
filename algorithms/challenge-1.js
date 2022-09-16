@@ -15,4 +15,5 @@ function sumOfMultiples(arr) {
 console.log(sumOfMultiples([6, 3, 0, 30, 7]) ); /*to return 39*/
 console.log(sumOfMultiples([9, 3, 21, 30, 7,8,4,2])); /*to return 63*/
 console.log(sumOfMultiples([10, 20, 11, 17, 7])); /*to return 30*/
-// module.exports = sumOfMultiples
+
+module.exports = sumOfMultiples

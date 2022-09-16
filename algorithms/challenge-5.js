@@ -6,4 +6,5 @@ function accum(str) {
  console.log(accum("abcd")); /*"A-Bb-Ccc-Dddd"*/
  console.log(accum("RqaEzty")); /*"A-Bb-Ccc-Dddd"*/
  console.log(accum("cwAt")); /*"A-Bb-Ccc-Dddd"*/
-//   module.exports =accum
+ 
+  module.exports =accum

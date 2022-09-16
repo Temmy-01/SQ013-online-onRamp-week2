@@ -10,4 +10,5 @@ function squareDigit(str) {
  console.log(squareDigit('289'));
  console.log(squareDigit('345'));
  console.log(squareDigit('7772'));
-//   module.exports =squareDigit
+ 
+  module.exports =squareDigit
