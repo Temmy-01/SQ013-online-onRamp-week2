@@ -47,8 +47,8 @@ Implement the function accum(str) that takes string and returns the accumulated 
 The parameter of accum is a string which includes only letters from a..z and A..Z.
 # Example
    accum("abcd") -> "A-Bb-Ccc-Dddd"
-   accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-accum("cwAt") -> "C-Ww-Aaa-Tttt"
+   accum("RqaEzty") -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"  
+    accum("cwAt") -> "C-Ww-Aaa-Tttt"   
 
 
 
