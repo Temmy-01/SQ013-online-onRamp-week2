@@ -38,12 +38,12 @@
         function submitKey(){
             let itemList = document.getElementById('itemList')
             let List  = document.getElementById('List')
-            if (itemList == '') {
-                alert('is empty')
-                
-            } 
-            itemList.innerHTML =""
-            if (itemList !=''){
+
+            if(itemList.value == ""){
+                return alert("it can't be empty")
+            }
+            if (itemList.value !=''){
+
                 List.innerHTML += `
                     <tr>
                         <td> 
@@ -51,12 +51,8 @@
                         </td>
                     </tr>
                 `
-            }
-           
-
-
+            } 
         }
-        submitKey()
     </script>
 
 
